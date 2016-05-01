@@ -1,0 +1,112 @@
+@CHARSET "ISO-8859-1";
+.well
+{	border-color: #5D8AA8 !important;
+	border-width: 2px !important;
+	border-style: inset; !important;
+}
+
+#Titolo { 
+	letter-spacing:3px;
+	font-size:40px;
+	font-family:monospace;
+	font-weight:bold;
+	padding-left:350px;
+	/*========animazione========*/
+	animation-name: composizioneborsa;
+	animation-duration: 4s ;
+	animation-iteration-count:1;
+	animation-delay:0s;   /*ritardo*/
+	animation-fill-mode: forwards;
+
+}
+#idea{
+	animation-name: illuminati;
+	animation-duration: 3s ;
+	animation-iteration-count:1;
+	animation-delay:4s;   /*ritardo*/
+	animation-fill-mode: forwards;
+	
+}
+#registrazione{
+	letter-spacing:2px;
+	font-family:monospace;
+	font-style: oblique;
+	margin-top:10px;
+	padding-left:350px;
+	font-size: x-large;	
+
+}
+.star
+{
+	
+	color:red;
+	font-size: large;
+	font-weight: bold;
+	animation-name: evidenzia;
+	animation-duration: 2s ;
+	animation-iteration-count:2;
+	animation-delay:0s;   /*ritardo*/
+	animation-fill-mode: forwards;
+	
+}
+#box_errore{
+	pasition:relative;
+	margin-left:500px;
+	margin-top:-120px;
+	font-style: monospace;
+	font-weight: bold; 
+	color: red; 
+	animation-name: composizioneborsa;
+	animation-duration: 4s ;
+	animation-iteration-count:1;
+	animation-delay:0s;   /*ritardo*/
+	animation-fill-mode: forwards;
+
+}
+
+.stepwizard-step p {
+    margin-top: 10px; 
+}
+
+.stepwizard-row {
+    display: table-row;
+}
+
+.stepwizard {
+    display: table;
+    width: 100%;
+    position: relative;
+}
+
+.stepwizard-step button[disabled] {
+    opacity: 1 !important;
+    filter: alpha(opacity=100) !important;
+}
+
+.stepwizard-row:before {
+    top: 14px;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    z-order: 0;
+
+}
+
+.stepwizard-step {
+    display: table-cell;
+    text-align: center;
+    position: relative;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
